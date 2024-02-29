@@ -1,0 +1,39 @@
+@import url("./main.css");
+
+:root {
+    --preto: #111111;
+    --branco: #FFFFFF;
+    --cinza: #8F8F8F;
+    --background-img: url('/assets/imgs/img-bg.jpeg'); /* Substitua 'sua-url-da-imagem-aqui' pela URL da sua imagem */
+}
+
+.dancing-script-elegant {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-image: var(--background-img);
+    background-size: cover; /* Mantém a proporção original da imagem */
+    background-color: var(--preto); /* Cor de fundo padrão, caso a imagem não carregue */
+    margin: 0; /* Remover margens do body para evitar espaços em branco */
+}
+
+.card {
+    backdrop-filter: blur(10px) !important; /* Ajuste o valor do desfoque conforme necessário */
+}
+
+
+
+
+/*
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((-------- Cesar Iglesias 
+/*
